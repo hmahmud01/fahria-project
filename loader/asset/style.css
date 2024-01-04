@@ -20,22 +20,6 @@ body {
     position: absolute;
 }
 
-.ct2 {
-    margin-top: 1080px;
-}
-
-.container2 {
-    background-color: green;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-}
-
 .loading-page {
     position: absolute;
     top: 0;

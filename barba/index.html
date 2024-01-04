@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./asset/style.css">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome Viewer!</h1>
+    <div data-barba="wrapper">
+        <div class="transition"></div>
+        <div class="wrapper">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <main data-barba="container" data-barba-namespace="home" class="container"> 
+                <div class="header">
+                    <h1>Homebase</h1>
+                    <div class="header-revealer"></div>
+                </div>
+                <div class="footer">(01)</div>
+            </main>
+        </div>
     </div>
-
 
     <div class="loading-page">
         <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -23,7 +35,8 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/@barba/core"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./asset/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
