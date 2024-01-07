@@ -1,10 +1,12 @@
+console.log("PACE")
+
 paceOptions = {
     ajax: true,
     document: true
 }
 
 Pace.on('done', () => {
-    
+    console.log("PACE")
     gsap.timeline()
     .add('p')
     .to('.pace', {
